@@ -1,0 +1,96 @@
+header{
+    background-color: rgb(4, 4, 95);
+    color:white;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.description {
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+nav li:hover {
+    color:lightpink;
+}
+nav li:active {
+    color:darksalmon
+}
+nav a:hover{
+    color:lightpink;
+}
+nav a:active {
+    color:darksalmon
+}
+
+.containerr{
+    display:flex;
+    padding-top: 20px;
+}
+.con1{
+    border: 1px solid grey;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+p{
+    font-size: 40px;
+}
+.descriptionn{
+    padding-left: 250px;
+}
+.price{
+    text-align: right;
+    padding-top: 45px;
+    padding-right: 45px;
+    font-size: 25px;
+    font-style:inherit;
+}
+.bottons{
+    padding-top: 35px;
+}
+button{
+    color: darkred;
+    background-color: rgb(249, 212, 218);
+    margin-left: 15px;
+    width: 200px;
+    height: 40px;
+}
+button:hover{
+    color: darkred;
+    background-color: rgb(160, 159, 159);
+}
+button:active{
+    color: darkred;
+    background-color: rgb(246, 244, 244);
+}
+
+.converce{
+    margin-left: 20px;
+}
+
+a:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
